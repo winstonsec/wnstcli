@@ -10,7 +10,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'wnstcli=wnstcli.cli:cli',
+            'wnstcli=src.cli:cli',
         ],
     },
     url='https://github.com/winstonsec/wnstcli',
