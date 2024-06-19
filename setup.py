@@ -1,20 +1,21 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='wnstcli',
+    name='gbsec',
     version='0.1.0',
     packages=find_packages(),
     include_package_data=True,
     install_requires=[
         'click',
+        'colorama'
     ],
     entry_points={
         'console_scripts': [
-            'wnstcli=src.cli:cli',
+            'gbsec=gbsec.cli:cli',
         ],
     },
-    url='https://github.com/winstonsec/wnstcli',
+    url='https://github.com/grupoboticario/si-cloudsec-gbsec-cli',
     author='Jonatas Winston',
-    author_email='your.email@example.com',
+    author_email='jonatas.winston@grupoboticario.com.br',
     description='A modular CLI tool',
 )

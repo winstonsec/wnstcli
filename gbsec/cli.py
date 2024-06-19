@@ -1,6 +1,6 @@
 import click
-from wnstcli.modules.install import install
-from wnstcli.modules.hardening import hardening
+from gbsec.modules.install import install
+from gbsec.modules.hardening import hardening
 
 from colorama import init, Fore, Style
 
